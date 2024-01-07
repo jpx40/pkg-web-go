@@ -1,0 +1,40 @@
+package tmpl
+
+import "github.com/jpx40/pkg-web-go/pkg/db"
+
+
+templ PkgTable(pkg []db.Package)  {
+<div>
+
+<style> 
+ table {
+  border-collapse: collapse;
+  width: 100%;
+color: white;
+  align: center;
+}
+
+</style>
+
+<table class="table-auto color-white font-white">
+  <thead>
+    <tr>
+      <th colspan="1" class="header px-4 py-2">Name</th>
+      <th class="header px-4 py-2" >Size </th>
+      <th class="header px-4 py-2" > Version </th>
+    </tr>
+  </thead>
+  <tbody>
+  for _, item := range pkg {
+    <tr class="table-auto">
+      <td class="border px-4 py-2">{item.Name}</td>
+      <td class="border px-4 py-2">{item.Size}</td>
+      <td class="border px-4 py-2">{item.Version}</td>
+    </tr>
+  }
+  </tbody>
+</table>
+
+
+ </div>
+}
