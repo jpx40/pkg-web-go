@@ -32,7 +32,7 @@ func PkgTable(pkg []db.Package) templ.Component {
 		templ_7745c5c3_Var2 := ` 
  table {
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
 color: white;
   align: center;
 }
