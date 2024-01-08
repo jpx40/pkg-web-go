@@ -7,6 +7,7 @@ import (
 	_ "github.com/IBM/fp-go/function"
 	"github.com/jpx40/pkg-web-go/pkg/router"
 
+	_ "github.com/gorilla/schema"
 	_ "github.com/markbates/goth"
 	_ "github.com/phakornkiong/go-pattern-match/pattern"
 	_ "github.com/sourcegraph/conc"

@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
+	httpin_integration "github.com/ggicci/httpin/integration"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
@@ -99,6 +100,10 @@ func Router() {
 		}
 		fmt.Println(error)
 	}
+}
+
+func init() {
+	httpin_integration.UseGochiURLParam("path", chi.URLParam)
 }
 
 func init() {

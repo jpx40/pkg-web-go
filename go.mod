@@ -7,11 +7,13 @@ require (
 	github.com/MetalBlueberry/go-plotly v0.4.0
 	github.com/a-h/templ v0.2.476
 	github.com/alecthomas/chroma v0.10.0
-	github.com/go-chi/chi/v5 v5.0.10
+	github.com/ggicci/httpin v0.15.2
+	github.com/go-chi/chi/v5 v5.0.11
 	github.com/go-chi/cors v1.2.1
 	github.com/go-chi/docgen v1.2.0
 	github.com/go-chi/render v1.0.3
 	github.com/gomarkdown/markdown v0.0.0-20231115200524-a660076da3fd
+	github.com/gorilla/schema v1.2.1
 	github.com/jackc/pgx/v5 v5.4.3
 	github.com/joho/godotenv v1.5.1
 	github.com/markbates/goth v1.78.0
@@ -23,6 +25,7 @@ require (
 require (
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
+	github.com/ggicci/owl v0.7.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
